@@ -30,7 +30,7 @@ global.region = 'Egypt, El Behira, Kafr El Dawar'
 global.sc = 'https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8'
 global.myweb = 'https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA'
 global.packname = 'https://Wa.Me/+201288455338'
-global.author = '[ غـوجـو ]'
+global.author = '[ By YoUsSeF Al SoLtAn $.. ]'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -43,7 +43,7 @@ global.mess = {
     private: '*「 هـذا الامـر فـي الـخـاص فـقـط 」◣*',
     bot: '*「 هـذا الامـر مـخـصـص لـ الـبـوت 」◣*',
     wait: '*「 انـتـظـر مـن فـضـلـك 」◣*',
-    error: 'Error! Maybe Api Key Is Expired🤔!',
+    error: 'عذرا لقد حدث خطأ!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 1000 Hours',
 }
     global.limitawal = {
