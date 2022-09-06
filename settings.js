@@ -22,29 +22,29 @@ global.APIKeys = {
 global.owner = ['201288455338']
 global.premium = ['201288455338']
 global.ownernomer = '201288455338'
-global.ownername = 'Youssef Al Soltan🇪🇬'
-global.botname = 'Bot-Al Soltan'
-global.footer = '©Bot Al Soltan.'
-global.ig = 'https://www.instagram.com/1y._.o2'
-global.region = 'Egypt, al bheira, kafr al dawar'
-global.sc = 'https://api.whatsapp.com/send?phone=+201288455338'
+global.ownername = '♛ يوسف السلطان ♛'
+global.botname = '♛ بوت السلطان ♛'
+global.footer = ' بوت السلطان ♛'
+global.ig = 'https://github.com/youssefsoltan'
+global.region = 'Egypt, El Behira, Kafr El Dawar'
+global.sc = 'https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8'
 global.myweb = 'https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA'
-global.packname = 'By Youssef Al Soltan'
-global.author = 'Bot Al Soltan💎'
+global.packname = 'https://Wa.Me/+201288455338'
+global.author = '[ غـوجـو ]'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
+    success: '✓',
+    admin: '*「 هـذا الامـر فـقـط لـ المـشـرفـيـن 」◣*',
+    botAdmin: '*「 اعـطـنـي إشـراف لـتـفـعـيـل  الامـر 」◣*',
+    owner: '*「 هـذا الامـر فـقـط لـ الـمـالـك 」◣*',
+    group: '*「 هـذا الامـر فـي الـمـجـمـوعـات فـقـط 」◣*',
+    private: '*「 هـذا الامـر فـي الـخـاص فـقـط 」◣*',
+    bot: '*「 هـذا الامـر مـخـصـص لـ الـبـوت 」◣*',
+    wait: '*「 انـتـظـر مـن فـضـلـك 」◣*',
     error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 1000 Hours',
 }
     global.limitawal = {
     premium: "Infinity",
