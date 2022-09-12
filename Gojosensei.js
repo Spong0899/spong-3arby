@@ -250,8 +250,8 @@ const reply = (teks) => {
         let gclink = (`https://chat.whatsapp.com/`+await GojoMdNx.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
-        if (isgclink) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Sent This Group Link❤️`)
-        if (isAdmins) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are An Admin Of The Group❤️`)
+        if (isgclink) return reply(`Group Is Installed With Anti-Link But I Won' سيتم طردك 😉 ارسل روابط كما تشاء❤️`)
+        if (isAdmins) return reply(`Group Is Installed With Anti-Link But I Won'سيتم طردك 😉, لكن لا باس انت مشرف يمكنك ارسال روابط كما تشاء❤️`)
         if (isCreator) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are My Owner Hahahahah🤣😘, You Think I Will Betray You Huh🐦`)
         GojoMdNx.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
@@ -1372,7 +1372,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
 		await GojoMdNx.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
 	}
 	break
-	case 'ترقية': {
+	case 'ترقيه': {
 		if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
@@ -3463,11 +3463,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `「 مرحبا 👋🏻  」◣
 		    「 بوت السلطان معك 🤗 」◣
 		    「 بوت السلطان افضل بوت عربي 🔥 」◣
- لينك رقمي ولينك الجروب بتاعي
+ رابط الجروب
  
- ⫷(⭕⃢☠️) Al SoLtAn  $  $  $ .(☠️⃢⭕)⫸
- https://wa.me/+201288455338?text=معاك.مطور.بوتات.واتساب.يبرو🫶🏻
-		    ♕ https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8◣
+ https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
 		    
 		    「 العايز البوت يخش الروم 」◣`,
                     description: `「 اختر من القائمه`,
