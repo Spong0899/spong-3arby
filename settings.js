@@ -19,18 +19,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['201288455338']
-global.premium = ['201288455338']
-global.ownernomer = '201288455338'
-global.ownername = '♛ يوسف السلطان ♛'
-global.botname = '♛ بوت السلطان ♛'
-global.footer = ' بوت السلطان ♛'
+global.owner = ['201220923611']
+global.premium = ['201220923611']
+global.ownernomer = '201220923611'
+global.ownername = '♛ سبونج  ♛'
+global.botname = '♛ بوت سبونج ♛'
+global.footer = ' بوت سبونج ♛'
 global.ig = 'https://github.com/youssefsoltan'
-global.region = 'Egypt, El Behira, Kafr El Dawar'
-global.sc = 'https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8'
+global.region = 'Egypt, El monofia, madena al sadat'
+global.sc = 'https://wa.me/message/ML3FPRKLG72FP1'
 global.myweb = 'https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA'
-global.packname = 'https://Wa.Me/+201288455338'
-global.author = '[ By YoUsSeF Al SoLtAn $.. ]'
+global.packname = 'https://Wa.Me/+201220923611'
+global.author = '[ By spong bot  $.. ]'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
