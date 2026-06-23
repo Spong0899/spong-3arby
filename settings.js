@@ -1,73 +1,116 @@
 //═══════════════════════════════════════════════════════//
-//
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
-//
-//════════════════════════════//
+//                    SPONG BOT SETTINGS
+//              WhatsApp Multi Device Bot
+//═══════════════════════════════════════════════════════//
 
 const fs = require('fs')
 const chalk = require('chalk')
 
-//Api Website\\
+//═══════════════════════════════════════════════════════//
+// API SETTINGS
+//═══════════════════════════════════════════════════════//
+
 global.APIs = {
-	zenz: 'https://zenzapis.xyz',
+  zenz: 'https://zenzapis.xyz'
 }
 
-//Api Key\\
 global.APIKeys = {
-	'https://zenzapis.xyz': 'sanzychan01', //credit goes to sanzy yt, if api key expire, buy it and put it here?\\
+  'https://zenzapis.xyz': process.env.ZENZ_API_KEY || ''
 }
 
-//customize settings\\
-global.owner = ['201220923611']
-global.premium = ['201220923611']
-global.ownernomer = '201220923611'
-global.ownername = '♛ سبونج  ♛'
-global.botname = '♛ بوت سبونج ♛'
-global.footer = ' بوت سبونج ♛'
-global.ig = 'https://github.com/youssefsoltan'
-global.region = 'Egypt, El monofia, madena al sadat'
-global.sc = 'https://wa.me/message/ML3FPRKLG72FP1'
-global.myweb = 'https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA'
-global.packname = 'https://Wa.Me/+201220923611'
-global.author = '[ By spong bot  $.. ]'
-global.sessionName = 'session'
-global.prefa = ['','!','.','🐦','🐤','🗿']
+//═══════════════════════════════════════════════════════//
+// OWNER SETTINGS
+//═══════════════════════════════════════════════════════//
+
+global.owner = ['201009520439']
+global.premium = ['201009520439']
+global.ownernomer = '201009520439'
+
+global.ownername = 'Spong0899'
+global.botname = 'Spong Bot'
+global.footer = 'Spong Bot | Powered by Spong0899'
+
+// Links
+global.ig = 'https://github.com/Spong0899'
+global.region = 'Egypt'
+global.sc = 'https://wa.me/201009520439'
+global.myweb = 'https://wa.me/201009520439'
+
+// Sticker info
+global.packname = 'Spong Bot'
+global.author = 'By Spong0899'
+
+// Session
+global.sessionName = process.env.SESSION_NAME || 'session'
+
+// Prefixes
+global.prefa = ['', '!', '.', '#', '/', '🐦', '🐤', '🗿']
 global.sp = '⭔'
+
+//═══════════════════════════════════════════════════════//
+// BOT MESSAGES
+//═══════════════════════════════════════════════════════//
+
 global.mess = {
-    success: '✓',
-    admin: '*「 هـذا الامـر فـقـط لـ المـشـرفـيـن 」◣*',
-    botAdmin: '*「 اعـطـنـي إشـراف لـتـفـعـيـل  الامـر 」◣*',
-    owner: '*「 هـذا الامـر فـقـط لـ الـمـالـك 」◣*',
-    group: '*「 هـذا الامـر فـي الـمـجـمـوعـات فـقـط 」◣*',
-    private: '*「 هـذا الامـر فـي الـخـاص فـقـط 」◣*',
-    bot: '*「 هـذا الامـر مـخـصـص لـ الـبـوت 」◣*',
-    wait: '*「 انـتـظـر مـن فـضـلـك 」◣*',
-    error: 'عذرا لقد حدث خطأ!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 1000 Hours',
+  success: '✓ تم بنجاح',
+  admin: '*「 هذا الأمر للمشرفين فقط 」*',
+  botAdmin: '*「 لازم تخليني مشرف عشان أنفذ الأمر 」*',
+  owner: '*「 هذا الأمر للمالك فقط 」*',
+  group: '*「 هذا الأمر يعمل داخل الجروبات فقط 」*',
+  private: '*「 هذا الأمر يعمل في الخاص فقط 」*',
+  bot: '*「 هذا الأمر مخصص للبوت فقط 」*',
+  wait: '*「 استنى لحظة... Spong Bot بيجهز الطلب 」*',
+  error: '*حصل خطأ، جرّب تاني بعد شوية*',
+  endLimit: '*خلصت حدودك اليومية، جرّب لاحقًا*'
 }
-    global.limitawal = {
-    premium: "Infinity",
-    free: 12,
-    monayawal: 1000
+
+//═══════════════════════════════════════════════════════//
+// USER LIMITS
+//═══════════════════════════════════════════════════════//
+
+global.limitawal = {
+  premium: 'Infinity',
+  free: 12,
+  monayawal: 1000
 }
-   global.rpg = {
-   darahawal: 100,
-   besiawal: 15,
-   goldawal: 10,
-   emeraldawal: 5,
-   umpanawal: 5,
-   potionawal: 1
+
+//═══════════════════════════════════════════════════════//
+// RPG DEFAULT DATA
+//═══════════════════════════════════════════════════════//
+
+global.rpg = {
+  darahawal: 100,
+  besiawal: 15,
+  goldawal: 10,
+  emeraldawal: 5,
+  umpanawal: 5,
+  potionawal: 1
 }
-global.thumb = fs.readFileSync('./GojoMedia/gojo.jpg')
+
+//═══════════════════════════════════════════════════════//
+// MEDIA
+//═══════════════════════════════════════════════════════//
+
+const thumbPath = './GojoMedia/gojo.jpg'
+
+global.thumb = fs.existsSync(thumbPath)
+  ? fs.readFileSync(thumbPath)
+  : Buffer.from('')
+
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+
+//═══════════════════════════════════════════════════════//
+// AUTO RELOAD SETTINGS FILE
+//═══════════════════════════════════════════════════════//
+
 let file = require.resolve(__filename)
+
 fs.watchFile(file, () => {
-	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete require.cache[file]
-	require(file)
+  fs.unwatchFile(file)
+  console.log(chalk.redBright(`Updated ${__filename}`))
+  delete require.cache[file]
+  require(file)
 })
