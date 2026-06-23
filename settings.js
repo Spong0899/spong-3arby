@@ -14,6 +14,7 @@ global.APIs = {
   zenz: 'https://zenzapis.xyz'
 }
 
+// حط API key في Replit Secrets باسم ZENZ_API_KEY لو عندك
 global.APIKeys = {
   'https://zenzapis.xyz': process.env.ZENZ_API_KEY || ''
 }
@@ -25,29 +26,23 @@ global.APIKeys = {
 global.owner = ['201009520439']
 global.premium = ['201009520439']
 global.ownernomer = '201009520439'
-global.ownername = '♛ سبونج  ♛'
-global.botname = '♛ بوت سبونج ♛'
-global.footer = ' بوت سبونج ♛'
-global.author = '[ By spong bot  $.. ]'
-global.mess = {
-...
-}
 
-// Links
+global.ownername = 'Spong0899'
+global.botname = 'Spong Bot'
+global.footer = 'Spong Bot | شغال يا باشا متقلقش'
+
 global.ig = 'https://github.com/Spong0899'
 global.region = 'Egypt'
 global.sc = 'https://wa.me/201009520439'
 global.myweb = 'https://wa.me/201009520439'
 
-// Sticker info
 global.packname = 'Spong Bot'
-global.author = 'By Spong0899'
+global.author = 'Made by Spong0899'
 
-// Session
 global.sessionName = process.env.SESSION_NAME || 'session'
 
 // Prefixes
-global.prefa = ['', '!', '.', '#', '/', '🐦', '🐤', '🗿']
+global.prefa = ['', '!', '.', '#', '/']
 global.sp = '⭔'
 
 //═══════════════════════════════════════════════════════//
@@ -55,16 +50,16 @@ global.sp = '⭔'
 //═══════════════════════════════════════════════════════//
 
 global.mess = {
-  success: '✓ تم بنجاح',
-  admin: '*「 هذا الأمر للمشرفين فقط 」*',
-  botAdmin: '*「 لازم تخليني مشرف عشان أنفذ الأمر 」*',
-  owner: '*「 هذا الأمر للمالك فقط 」*',
-  group: '*「 هذا الأمر يعمل داخل الجروبات فقط 」*',
-  private: '*「 هذا الأمر يعمل في الخاص فقط 」*',
-  bot: '*「 هذا الأمر مخصص للبوت فقط 」*',
-  wait: '*「 استنى لحظة... Spong Bot بيجهز الطلب 」*',
-  error: '*حصل خطأ، جرّب تاني بعد شوية*',
-  endLimit: '*خلصت حدودك اليومية، جرّب لاحقًا*'
+  success: 'تمام يا نجم، اتعملت ✓',
+  admin: '*الأمر ده للمشرفين بس يا كبير.*',
+  botAdmin: '*اديني إشراف الأول، وأنا أظبط الدنيا.*',
+  owner: '*الأمر ده للمالك بس، متحاولش تفتح درج مش بتاعك.*',
+  group: '*الأمر ده بيشتغل في الجروبات بس.*',
+  private: '*الأمر ده للخاص بس، الجروب ملوش دعوة.*',
+  bot: '*الأمر ده خاص بالبوت بس.*',
+  wait: '*ثواني بس... Spong Bot بيطبخ الطلب على نار هادية.*',
+  error: '*حصل خطأ صغير، السيستم عطس. جرّب تاني.*',
+  endLimit: '*خلصت حدودك اليومية يا معلم، نرجع بكرة بدماغ صافية.*'
 }
 
 //═══════════════════════════════════════════════════════//
