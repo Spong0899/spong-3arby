@@ -25,10 +25,13 @@ global.APIKeys = {
 global.owner = ['201009520439']
 global.premium = ['201009520439']
 global.ownernomer = '201009520439'
-
-global.ownername = 'Spong0899'
-global.botname = 'Spong Bot'
-global.footer = 'Spong Bot | Powered by Spong0899'
+global.ownername = '♛ سبونج  ♛'
+global.botname = '♛ بوت سبونج ♛'
+global.footer = ' بوت سبونج ♛'
+global.author = '[ By spong bot  $.. ]'
+global.mess = {
+...
+}
 
 // Links
 global.ig = 'https://github.com/Spong0899'
